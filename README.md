@@ -2,4 +2,4 @@
  
 Note 10 Snapdragon 855
  
-![UI](https://github.com/maxim-saplin/dopetest_flutter/blob/master/Screenshot_Flutter.jpeg?raw=true)
+![UI](https://raw.githubusercontent.com/maxim-saplin/dopetest_flutter/master/Screenshot_20200609-184950.jpg)
