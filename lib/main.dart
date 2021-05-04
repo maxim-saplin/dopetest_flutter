@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'dart:math';
 import 'dart:async';
 import 'package:flutter/material.dart';
@@ -30,6 +29,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _Label {
+  int id;
   Color color;
   double top;
   double left;
@@ -62,6 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       label.top = rand.nextDouble()*_height;
       label.left = rand.nextDouble()*_width;
       label.rotate = rand.nextDouble()*pi*2;
+      label.id = _processed;
       _processed++;
 
       if (_processed > _max){
@@ -124,7 +125,8 @@ class _MyHomePageState extends State<MyHomePage> {
     _labels.forEach((element) {
       children.add(Transform(
         transform: Matrix4.translationValues(element.left, element.top, 0)..rotateZ(element.rotate),
-        child: Text('Dope', style: TextStyle(color: element.color))
+        child: Text('Dope', style: TextStyle(color: element.color)),
+        key: ValueKey(element.id),
       ));
     });
 
