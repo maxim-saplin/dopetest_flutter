@@ -5,13 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Flutter Profile",
+      "name": "Profile",
       "request": "launch",
       "type": "dart",
       "flutterMode" : "profile"
     },
     {
-      "name": "Flutter Debug CanvasKit",
+      "name": "Debug CanvasKit",
       "request": "launch",
       "type": "dart",
       "flutterMode" : "debug",
@@ -21,7 +21,7 @@
       ],
     },
     {
-      "name": "Flutter Release CanvasKit",
+      "name": "Release CanvasKit",
       "request": "launch",
       "type": "dart",
       "flutterMode" : "release",
@@ -31,7 +31,7 @@
       ],
     },
     {
-      "name": "Flutter Release Html",
+      "name": "Release Html",
       "request": "launch",
       "type": "dart",
       "flutterMode" : "release",
