@@ -1,3 +1,10 @@
+
+# Flutter Web
+
+CanvasKit renderer: https://maxim-saplin.github.io/dopetest_flutter/canvaskit/#/ 
+
+HTML renderer: https://maxim-saplin.github.io/dopetest_flutter/html/#/
+
 # APK
 https://github.com/maxim-saplin/dopetest_flutter/releases/download/APK/maxim_saplin.dopetest_flutter.apk
  
