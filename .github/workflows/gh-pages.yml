@@ -1,4 +1,4 @@
-name: Flutter SPA
+name: Flutter DopeTest Web
 
 on: [workflow_dispatch] #[push]
 
